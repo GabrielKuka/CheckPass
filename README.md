@@ -2,6 +2,8 @@
 
 ### Usage: python3 checkpass.py mysecretpassword
 
+<img src="https://user-images.githubusercontent.com/17888328/168330702-043f8ca8-43ab-4bc5-8528-2059dfbaf9c6.png" width="600" height="300"/>
+
 This tool will hash your input for security and send only part of the hash to a big leaked password database.
 The result will be all the hashes that contain the part sent and their frequencies.
 The tool then matches your password (the hashed version) with the result of the request and grab the frequency.
