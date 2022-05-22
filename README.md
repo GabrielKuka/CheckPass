@@ -3,11 +3,13 @@
 ---
 
 Example:
+
 <img src="https://user-images.githubusercontent.com/17888328/169696347-200e0289-5bfe-4f9a-bfdc-4db30cfd2828.png" width="600" height="230"/>
 
-This tool will hash your input for security and send only part of the hash to a big leaked password database.
-The result will be all the hashes that contain the part sent and their frequencies.
-The tool then matches your password (the hashed version) with the result of the request and grab the frequency.
+This tool hashes your password using sha1 function.
+Part of the hash is sent to the database of breached hashes.
+API returns all the hashes that contain the input.
+The script matches input hash with the result and print the frequency.
 
 Dependencies:
 
