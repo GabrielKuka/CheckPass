@@ -12,11 +12,7 @@ Part of the hash is sent to the database of breached hashes.
 
 API returns all the hashes that contain the input.
 
-<<<<<<< HEAD
 The script matches input hash with the result and prints the frequency.
-=======
-The script matches input hash with the result and print the frequency.
->>>>>>> 4ddf5a5dc1eddf809eeec9fa28d6d7f7c24b1f39
 
 Dependencies:
 
